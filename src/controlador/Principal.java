@@ -4,7 +4,6 @@
  */
 package controlador;
 
-import Vista.interfaz;
 import Vista.vista;
 
 /**
@@ -16,9 +15,9 @@ public class Principal {
         System.out.println("hola mi rey soy anthonazo el huevazo");
         
         vista v = new vista();
-        interfaz i = new interfaz();
+     //   interfaz i = new interfaz();
         
-        listenerBotonSesion se = new listenerBotonSesion(v, i);
+        listenerBotonSesion se = new listenerBotonSesion(v);
         v.listenerSesion(se);
         
         System.out.println("Hola soy Paul");

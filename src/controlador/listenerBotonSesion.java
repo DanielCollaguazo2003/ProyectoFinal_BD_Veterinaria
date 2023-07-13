@@ -4,7 +4,6 @@
  */
 package controlador;
 
-import Vista.interfaz;
 import Vista.vista;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,12 +15,12 @@ import javax.swing.JOptionPane;
  */
 public class listenerBotonSesion implements ActionListener{
     vista v;
-    interfaz i;
+   // interfaz i;
 
-    public listenerBotonSesion(vista v, interfaz i) {
+    public listenerBotonSesion(vista v) {
         this.v = v;
-        this.i = i;
-    }
+    //    this.i = i;
+}
     
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -29,7 +28,7 @@ public class listenerBotonSesion implements ActionListener{
        String password = "Collaguazo123";
        
         if (user.equals(v.textUser()) && password.equals(v.textPassword())) {
-            i.setVisible(true);
+          //  i.setVisible(true);
         } else {
             JOptionPane.showMessageDialog(v, "Usuario o contrasenia incorrecta");
         }
