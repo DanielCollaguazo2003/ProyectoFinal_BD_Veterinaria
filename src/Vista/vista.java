@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 
 /**
  *
- * @author Sammy Guergachi <sguergachi at gmail.com>
+ * @author XaviO_o
  */
 public class vista extends javax.swing.JFrame {
 
@@ -87,8 +87,8 @@ public class vista extends javax.swing.JFrame {
         jLabel7.setText("Contraseña");
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img3/Card_Header.jpg"))); // NOI18N
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 450, -1));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/patitas.png"))); // NOI18N
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 450, 110));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Lock.png"))); // NOI18N
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 450, 20, -1));
@@ -121,7 +121,7 @@ public class vista extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(60, 63, 65));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img3/Ellipse 209.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Ellipse 209.png"))); // NOI18N
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 450, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/fondobueno.jpg"))); // NOI18N
