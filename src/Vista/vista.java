@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 
 /**
  *
- * @author Sammy Guergachi <sguergachi at gmail.com>
+ * @author XaviO_o
  */
 public class vista extends javax.swing.JFrame {
 
