@@ -20,5 +20,8 @@ public class Principal {
         v.listenerSesion(se);
         
         v.setVisible(true);
+        
+        System.out.print("Hola jsjsjsjsjjsjsjjsjs");
     }
+    
 }
