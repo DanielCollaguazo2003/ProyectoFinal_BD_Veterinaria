@@ -91,7 +91,7 @@ public class interfaz extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(96, 96, 96)
                         .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(211, Short.MAX_VALUE))
+                .addContainerGap(154, Short.MAX_VALUE))
         );
 
         pack();

@@ -19,6 +19,8 @@ public class Principal {
         listenerBotonSesion se = new listenerBotonSesion(v, i);
         v.listenerSesion(se);
         
+        System.out.println("Hola soy Paul");
+        
         v.setVisible(true);
     }
 }
